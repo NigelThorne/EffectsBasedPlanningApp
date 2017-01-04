@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    background-color: #f2e2e2;
+}
+
+.goal {
+    background: #3f3;
+}
+.goal>h1::before{
+    color: black;
+    content: "Goal";
+}
+
+.inter_effect {
+    background: #bfb;
+}
+.inter_effect>h1::before{
+    color: black;
+    content: "Intermediate Effect";
+}
+
+.precondition {
+    background: #99f;
+}
+.precondition>h1::before{
+    color: white;
+    content: "Precondition";
+}
+
+.action {
+    background: #fea;
+}
+.action>h1::before{
+    color: black;
+    content: "Action";
+}
+
+.undesirable_effect {
+    background: #e88;
+}
+.undesirable_effect>h1::before{
+    color: white;
+    content: "Undesirable Effect";
+}
+
+.desirable_effect {
+    background: #8c8;
+}
+.desirable_effect>h1::before{
+    color: white;
+    content: "Desirable Effect";
+}
+
+.node {
+    font-size: 9px;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    padding: 5px;
+    margin: 3px;
+    display:inline-block;
+    width:60px;
+}
+
+.node>h1 {
+    font-size: 9px;
+    margin: -4px 5px 6.5px 3px;
+    padding: 0px;
+    font-weight: 600;
+}
+
+.node>p {
+    background: white;
+    text-align: center;
+    font-weight: 599;
+    padding: 3px;
+    margin: -5px;
+    border-radius: 0 0 8.5px 8.5px;
+}
+
